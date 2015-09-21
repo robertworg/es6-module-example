@@ -3,7 +3,7 @@ es6 modules example
 
 Packages and tools used
 ---
-systemjs, jspm, jquery, bootstrap, d3, es6 modules, WebStorm
+systemjs, jspm, gulp, jquery, bootstrap, d3, es6 modules, WebStorm
 
 Steps
 ---
@@ -17,7 +17,7 @@ Steps
     mkdir modules
     touch modules/main.js
     npm install jspm
-    npm install gulp
+    npm install gulp del gulp-rename
     jspm install
     jspm install text css json jquery bootstrap d3
     ```
