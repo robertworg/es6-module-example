@@ -7,6 +7,7 @@ Steps
 ---
 
 1. Install nodejs
+2. Open terminal and run:
 ```sh
 mkdir es6-example
 cd es6-example
@@ -20,12 +21,21 @@ jspm install text css json jquery bootstrap d3
 ```sh
 npm cache clean
 ```
-3. Create index.html adding script references:
+3. Create index.html adding the following script references:
 ```javascript
-<script src="jspm_packages/system.js"></script>
-<script src="config.js"></script>
-<script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+</head>
+<body>
+    <script>
         System.import('./modules/main');
-</script>
+    </script>
+</body>
+</html>
 ```
 
