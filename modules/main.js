@@ -1,5 +1,5 @@
 import 'bootstrap/css/bootstrap.css!';
-import 'content/site.css!css';
+import 'content/site.css!';
 import $ from 'jquery';
 import 'bootstrap/js/bootstrap.js';
 import walah from 'modules/walah.html!text';

@@ -1,4 +1,4 @@
-es6 example
+es6 modules example
 ===========
 
 Packages and tools used
@@ -17,6 +17,7 @@ Steps
     mkdir modules
     touch modules/main.js
     npm install jspm
+    npm install gulp
     jspm install
     jspm install text css json jquery bootstrap d3
     ```
