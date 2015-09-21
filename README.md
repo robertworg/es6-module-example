@@ -17,11 +17,15 @@ npm install jspm
 jspm install
 jspm install text css json jquery bootstrap d3
 ```
-2. If jspm has an error make sure jspm_packages folder exists in the project root or try: 
+
+2. If jspm has an error make sure jspm_packages folder exists in the project root or try:
+ 
 ```sh
 npm cache clean
 ```
-3. Create index.html adding the following script references:
+
+3. Create index.html:
+
 ```javascript
 <!DOCTYPE html>
 <html lang="en">
