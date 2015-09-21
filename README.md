@@ -5,7 +5,7 @@ Packages and tools used
 ---
 systemjs, jspm, gulp, jquery, bootstrap, d3, es6 modules, WebStorm
 
-Steps
+TODOs
 ---
 
 1. Install nodejs
@@ -26,23 +26,4 @@ Steps
     
     ```sh
     npm cache clean
-    ```
-    
-3. Create index.html:
-
-    ```javascript
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-        <script src="jspm_packages/system.js"></script>
-        <script src="config.js"></script>
-    </head>
-    <body>
-        <script>
-            System.import('./modules/main');
-        </script>
-    </body>
-    </html>
-    ```
+    ```    
