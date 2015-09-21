@@ -1,6 +1,8 @@
 es6 example
 ===========
 
+Packages and tools used
+---
 systemjs, jspm, jquery, bootstrap, d3, es6 modules, WebStorm
 
 Steps
